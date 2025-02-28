@@ -263,7 +263,7 @@ resume_data = {
 
 st.set_page_config(page_title=f"{resume_data['Contact']['Name']} - Resume", page_icon="📄")
 
-st.title(f"{resume_data['Contact']['Name']} - Executive Resume")
+st.title(f"{resume_data['Contact']['Name']} - Resume")
 
 # --- Sidebar Navigation Buttons ---
 st.sidebar.header("Navigation")
