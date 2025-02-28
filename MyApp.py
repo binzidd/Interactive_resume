@@ -267,9 +267,9 @@ st.title(f"{resume_data['Contact']['Name']} - Executive Resume")
 
 # --- Sidebar Navigation Buttons ---
 st.sidebar.header("Navigation")
-# Reordered sections with icons
-sections = ["Contact 📞", "Summary 🚀", "Skills 🤹", "Experience 💼", "Certifications 🏆", "Projects 💡", "Ask Binay 🤖", "References 🤝", "Feedback 📝", "Download PDF ⬇️"] # Added Feedback
-section_icons = {"Contact 📞": "📞", "Summary 🚀": "🚀", "Skills 🤹": "🤹", "Experience 💼": "💼", "Certifications 🏆": "🏆", "Projects 💡": "💡", "Ask Binay 🤖": "🤖", "References 🤝": "🤝", "Download PDF ⬇️": "⬇️", "Feedback 📝": "📝"}
+
+sections = ["Contact 📞", "Summary 🚀", "Experience 💼", "Skills 🤹", "Certifications 🏆", "Projects 💡", "Ask Binay 🤖", "References 🤝", "Feedback 📝", "Download PDF ⬇️"] # Added Feedback
+section_icons = {"Contact 📞": "📞", "Summary 🚀": "🚀","Experience 💼": "💼", "Skills 🤹": "🤹", "Certifications 🏆": "🏆", "Projects 💡": "💡", "Ask Binay 🤖": "🤖", "References 🤝": "🤝", "Download PDF ⬇️": "⬇️", "Feedback 📝": "📝"}
 
 # Initialize selected section using session state
 if 'selected_section' not in st.session_state:
@@ -324,17 +324,17 @@ elif selected_section == "Summary 🚀":
     st.subheader("Key Leadership Competencies ✨")
     lcol1, lcol2, lcol3 = st.columns(3)
     with lcol1:
-        st.metric("Stakeholder Manag.", f"{skill_scores['Leadership & Strategy 🧭']['Stakeholder Management']}/5", "Expert: Building consensus and trust") # Added description
+        st.metric("Stakeholder Manag.", f"{skill_scores['Leadership & Strategy 🧭']['Stakeholder Management']}/5", "Building trust") # Added description
     with lcol2:
-        st.metric("Strategic Thinking", f"{skill_scores['Leadership & Strategy 🧭']['Strategic Thinking']}/5", "Visionary: Charting data-driven roadmaps") # Added description
+        st.metric("Strategic Thinking", f"{skill_scores['Leadership & Strategy 🧭']['Strategic Thinking']}/5", "Charting data-driven roadmaps") # Added description
     with lcol3:
-        st.metric("Team Building", f"{skill_scores['Leadership & Strategy 🧭']['Building Teams']}/5", "Empowering: Fostering collaboration and growth") # Added description
+        st.metric("Team Building", f"{skill_scores['Leadership & Strategy 🧭']['Building Teams']}/5", "Collaboration and growth") # Added description
 
     lcol4, lcol5 = st.columns(2)
     with lcol4:
-        st.metric("Long-Term Vision", f"{skill_scores['Leadership & Strategy 🧭']['Long-Term Vision Alignment']}/5", "Forward-Thinking: Aligning with strategic objectives") # Added description
+        st.metric("Long-Term Vision", f"{skill_scores['Leadership & Strategy 🧭']['Long-Term Vision Alignment']}/5", "Aligning with strategic objectives") # Added description
     with lcol5:
-        st.metric("Risk & Control", f"{skill_scores['Leadership & Strategy 🧭']['Risk & Control Management']}/5", "Pragmatic: Balancing innovation with governance") # Added description
+        st.metric("Risk & Control", f"{skill_scores['Leadership & Strategy 🧭']['Risk & Control Management']}/5", "Innovation with governance") # Added description
 
 elif selected_section == "Skills 🤹":
     st.header(f"Skills & Expertise {section_icons['Skills 🤹']}")
