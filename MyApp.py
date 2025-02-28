@@ -547,7 +547,7 @@ elif selected_section == "Download PDF ⬇️":
         st.error(f"PDF file not found at: {pdf_path}. Please ensure 'your_resume.pdf' is in the correct location.")
 
 
-# --- Styling --- (Executive Theme - HCI Refined)
+
 st.markdown(f"""
 <style>
 .streamlit-expanderHeader {{
