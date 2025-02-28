@@ -302,7 +302,7 @@ if selected_section == "Contact 📞":
 
     with col1:
         try:
-            profile_image = Image.open("profile_photo.jpg")  # 📸 Replace "profile_photo.png" with your image file in the same directory
+            profile_image = Image.open("profile_photo.JPG")  # 📸 Replace "profile_photo.png" with your image file in the same directory
             st.image(profile_image, width=150) # Adjust width as needed
         except FileNotFoundError:
             st.warning("Profile photo not found. Please add 'profile_photo.png' to the directory.")
