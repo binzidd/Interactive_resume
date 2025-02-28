@@ -261,7 +261,7 @@ resume_data = {
     "References": "Available on Request"
 }
 
-st.set_page_config(page_title=f"{resume_data['Contact']['Name']} - Executive Resume", page_icon="📄")
+st.set_page_config(page_title=f"{resume_data['Contact']['Name']} - Resume", page_icon="📄")
 
 st.title(f"{resume_data['Contact']['Name']} - Executive Resume")
 
