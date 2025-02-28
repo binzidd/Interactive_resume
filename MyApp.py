@@ -95,7 +95,7 @@ resume_data = {
         "Tableau 5x: Community Leader | Data Scientist | Data Steward | Executive Sponsor | Desktop Specialist",
         "Alteryx 2x: Core & Advanced",
         "AWS: Analytics Service Overview",
-        "AWS Certified Cloud Practitioner"
+        "AWS Certified Cloud Practitioner",
         "Snowflake Hands-on Essentials 2x: Data Warehouse | Data Applications",
         "Tableau Certified Designer",
         "Alteryx 2020 Certified Specialist"
