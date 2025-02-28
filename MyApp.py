@@ -205,7 +205,7 @@ resume_data = {
             ]
         },
         {
-             "Section": "Key Projects (Intern Roles) 🧑‍🎓",
+             "Section": "Key Projects 🧑‍🎓",
             "Projects": [
                 {
                     "Name": "Canvas Reporting and Student Engagement dashboards 📈",
