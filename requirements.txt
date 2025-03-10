@@ -1,61 +1,8 @@
-altair
-annotated-types
-anyio
-attrs
-blinker
-Bottleneck
-Brotli
-cachetools
-certifi
-charset-normalizer
-click
-contourpy
-cycler
-distro
-fonttools
-gitdb
-idna
-Jinja2
-jiter
-jsonschema
-jsonschema-specifications
-kiwisolver
-markdown-it-py
-MarkupSafe
-matplotlib
-mdurl
-narwhals
-numexpr
-numpy
-openai
-packaging
-pandas
-pillow
-plotly
-protobuf
-pyarrow
-pydantic
-pydantic_core
-pydeck
-Pygments
-pyparsing
-PySocks
-python-dateutil
-pytz
-referencing
-requests
-rich
-rpds-py
-setuptools
-six
-smmap
-sniffio
 streamlit
-tenacity
-toml
-toolz
-tornado
-tqdm
-typing_extensions
-tzdata
-wheel
+matplotlib  # Example version - replace with your tested version
+numpy  # Example version - replace with your tested version
+plotly    # Example version - replace with your tested version
+pandas     # Example version - replace with your tested version
+Pillow     # Example version - replace with your tested version
+openai    # Example version - replace with your tested version
+langchain
